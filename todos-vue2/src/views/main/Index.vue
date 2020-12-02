@@ -2,8 +2,7 @@
   <div class="wrapper">
     <section class="todoapp">
       <header class="header">
-<!--        <h1>TodoMVC • Vue2</h1>-->
-        <h1>TodoMVC</h1>
+        <h1>TodoMVC • Vue2</h1>
         <input class="new-todo" placeholder="请输入待办事项并按回车键" autofocus
                v-model="newTodo"
                @keyup.enter="addTodo">
