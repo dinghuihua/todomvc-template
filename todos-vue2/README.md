@@ -1,4 +1,10 @@
 # todos-vue2
+用vue2.x编写的Todo
+
+## Project create
+```
+vue create todos-vue2
+```
 
 ## Project setup
 ```
