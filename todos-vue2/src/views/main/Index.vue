@@ -8,7 +8,7 @@
                @keyup.enter="addTodo">
       </header>
       <!-- This section should be hidden by default and shown when there are todos -->
-      <section class="main" v-show="showTodoList.length">
+      <section class="main" v-show="todoList.length">
         <input id="toggle-all" class="toggle-all" type="checkbox" v-model="allDone">
         <label for="toggle-all">Mark all as complete</label>
         <ul class="todo-list">
@@ -38,7 +38,7 @@
           </li>
         </ul>
         <!-- Hidden if no completed items are left ↓ -->
-        <button class="clear-completed" @click="removeCompleted" v-show="todoList.length > remainingNum">Clear completed</button>
+        <button class="clear-completed" @click="removeCompleted" v-show="todoList.length > remainingNum">删除已完成的事项</button>
       </footer>
     </section>
     <footer class="info">

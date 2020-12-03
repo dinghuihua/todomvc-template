@@ -1,9 +1,12 @@
 # todos-vue2
 用vue3编写的Todo
 
-## Project create
+## 项目创建
 ```
+# 初始化
 npm init vite-app todos-vue3
+# 安装路由
+npm i vue-router@next -S
 ```
 
 ## Project setup
